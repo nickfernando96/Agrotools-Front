@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="./css/bootstrap/bootstrap-grid.min.css" rel="stylesheet">
+      <link href="./css/bootstrap/bootstrap.css" rel="stylesheet">
+      <link href="./css/bootstrap/index.css" rel="stylesheet">
+      <script src="assets/jquery-2.1.3.min.js"></script>
+
+      <title>Agrotools</title>
+  </head>
+
+  <body>
+
+    <header>    
+    <div class="d-flex justify-content-center">
+      <div class="container-img mt-1">
+        <img class="centered-img" src="./assets/img/LogoAgrotoolsNew.png" alt="">
+      </div>
+    </div>
+    <div class="d-flex justify-content-between">
+      <h1 class="op_name"></h1>
+      <div id="mesageView" class="alert"></div>
+    </div>
+    </header>
+
+    <div id="body-content" class="d-flex flex-row justify-content-between">
+
+      <div id="dashboard" class="d-flex flex-column mt-4">
+        <ul class="nav flex-column">
+
+          <li class="nav-item d-flex flex-row mt-4" id="novo-quest">
+            <a class="nav-link flex-column" href="#">
+              <img id="novo_icon" src="./assets/img/novo_icon.png" class="img fluid flex-column icons" alt="">
+              <span class="text-desktop">Criar Questionário</span>
+            </a>
+          </li>
+
+          <li class="nav-item d-flex row">
+            <a class="nav-link flex-column" href="#" id="questionarios-disponiveis">
+              <img id="pendente_icon" src="./assets/img/pendente_icon.png" class="img fluid flex-column icons" alt="">
+              <span class="text-desktop">Listar Questionários</span>
+            </a>
+          </li>
+
+          <li class="nav-item d-flex flex-row">
+            <a class="nav-link flex-column" href="#" id="questionarios-respondidos">
+              <img id="check_icon" src="./assets/img/check_icon.png" class="img fluid flex-column icons" alt="">
+              <span class="text-desktop">Ver Respostas</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      
+      <div id="option_field" class="mt-4">
+        <div id="option_selected" >
+          
+        </div>
+      </div>
+
+  </body>
+
+  <script src="./assets/system.js"></script>
+  <script>
+    System.defaultJSExtensions = true;
+    System.import('js/controllers/optionsController.js').catch(err => console.error(err));
+  </script>
+
+</html>
