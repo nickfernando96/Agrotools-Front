@@ -9,5 +9,5 @@ The project was made using HTML, CSS, and Bootstrap for customization
 ## Installation
 
 >* First, clone this repository or download
-* Install all dependencies using 'npm install --dev' and 'npm install'
-* To run, execute the command 'npm run server'
+>* Install all dependencies using 'npm install --dev' and 'npm install'
+>* To run, execute the command 'npm run server'
