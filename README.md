@@ -2,9 +2,9 @@
 
 ## Introduction
 
-> This project was developed for challenge Agrotools.
-This's the front-end of project
-The project was made using HTML, CSS, and Bootstrap for customization
+>* This project was developed for challenge Agrotools.
+>* This's the front-end of project.
+>* The project was made using HTML, CSS, and Bootstrap for customization.
 
 ## Installation
 
